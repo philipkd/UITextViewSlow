@@ -255,6 +255,7 @@
 				GCC_PREFIX_HEADER = "TextViewSlow/TextViewSlow-Prefix.pch";
 				INFOPLIST_FILE = "TextViewSlow/TextViewSlow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,6 +269,7 @@
 				GCC_PREFIX_HEADER = "TextViewSlow/TextViewSlow-Prefix.pch";
 				INFOPLIST_FILE = "TextViewSlow/TextViewSlow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,6 +293,7 @@
 				966E848A18C023E5009C118C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
