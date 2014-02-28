@@ -1,4 +1,4 @@
-== iOS 7 UITextView is slow after typing lots of text ==
+*iOS 7 UITextView is slow after typing lots of text
 
 I'm having trouble with a slowdown that occurs in UITextView on iOS 7 when typing lots of text. I put a tracer in NSLayoutManager and identified that drawGlyphsForGlyphRange runs N*2 times, where N is the number of times your lines word-wrapped.
 
